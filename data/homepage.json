@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "eyebrow": "Learn • Explore • Create • Grow",
+    "headingTop": "Inspiring Minds.",
+    "headingBottom": "Building Futures.",
+    "markWord": "Futures.",
+    "description": "A nurturing environment where students discover their potential through meaningful learning and STEAM education.",
+    "primaryLabel": "Apply Now",
+    "primaryHref": "/admissions/apply",
+    "secondaryLabel": "Explore Our School",
+    "secondaryHref": "/about",
+    "image": ""
+  },
+  "about": {
+    "eyebrow": "About the School",
+    "headingTop": "Learning with",
+    "headingBottom": "Purpose.",
+    "markWord": "Purpose.",
+    "description": "Learning here is student-focused and hands-on: science, technology, engineering, arts and mathematics taught as one connected way of thinking. Every project builds creativity and the confidence to share it.",
+    "primaryLabel": "Discover Our School",
+    "primaryHref": "/about",
+    "image": ""
+  },
+  "academics": {
+    "eyebrow": "Academics",
+    "heading": "Programs built for every stage",
+    "markWord": "every",
+    "primaryLabel": "All Programs",
+    "primaryHref": "/academics"
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "heading": "Spaces made for making",
+    "markWord": "making",
+    "primaryLabel": "Explore Our Facilities",
+    "primaryHref": "/facilities"
+  },
+  "studentLife": {
+    "eyebrow": "Student Life",
+    "heading": "More than classes",
+    "markWord": "classes",
+    "primaryLabel": "See Student Life",
+    "primaryHref": "/student-life"
+  },
+  "stats": {
+    "eyebrow": "Our School in Numbers",
+    "heading": "Growing every single year",
+    "markWord": "Growing",
+    "items": [
+      {
+        "id": "s1",
+        "value": "500+",
+        "label": "Students",
+        "enabled": true
+      },
+      {
+        "id": "s2",
+        "value": "5+",
+        "label": "Well-Equipped Labs",
+        "enabled": true
+      },
+      {
+        "id": "s3",
+        "value": "20+",
+        "label": "Smart Board Classrooms",
+        "enabled": true
+      },
+      {
+        "id": "s4",
+        "value": "10+",
+        "label": "Study Materials",
+        "enabled": true
+      },
+      {
+        "id": "s5",
+        "value": "10+",
+        "label": "Student Clubs",
+        "enabled": true
+      },
+      {
+        "id": "s6",
+        "value": "6+",
+        "label": "Sports Activities",
+        "enabled": true
+      }
+    ]
+  },
+  "video": {
+    "eyebrow": "See Us in Action",
+    "heading": "A glimpse of life at our school",
+    "description": "Two minutes inside our classrooms, laboratories and playground.",
+    "url": "",
+    "image": ""
+  },
+  "cta": {
+    "eyebrow": "Admissions Open · 2083",
+    "heading": "Start Your Journey",
+    "markWord": "Journey",
+    "description": "Join a school community where every student is encouraged to explore their potential.",
+    "primaryLabel": "Start Your Application",
+    "primaryHref": "/admissions/apply",
+    "secondaryLabel": "Talk to Us First",
+    "secondaryHref": "/contact"
+  }
+}

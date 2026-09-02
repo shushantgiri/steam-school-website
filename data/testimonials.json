@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "name": "Sunita Chaudhary",
+    "role": "Parent \u00b7 Grade 6 student",
+    "quote": "My daughter used to be shy about asking questions. After a year at STEAM Education she explains her science projects to the whole family at dinner.",
+    "status": "Published"
+  },
+  {
+    "id": "t2",
+    "name": "Rajesh Thapa",
+    "role": "Parent \u00b7 Grade 3 & Grade 8 students",
+    "quote": "Both of my sons study here. What convinced us was the practical learning \u2014 they build things with their own hands, not just memorize books.",
+    "status": "Published"
+  },
+  {
+    "id": "t3",
+    "name": "Kamala Gurung",
+    "role": "Parent \u00b7 Nursery student",
+    "quote": "The teachers know every child by name and share updates with us regularly. As a first-time school parent, that care means everything.",
+    "status": "Published"
+  }
+]

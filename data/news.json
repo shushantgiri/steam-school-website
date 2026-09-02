@@ -1,0 +1,76 @@
+[
+  {
+    "id": "n1",
+    "slug": "robotics-club-wins",
+    "title": "Robotics club wins provincial championship",
+    "category": "Achievements",
+    "author": "R. Sharma",
+    "date": "2026-08-02",
+    "status": "Published",
+    "excerpt": "Our senior robotics team took first place at the Lumbini Province School Robotics Challenge.",
+    "body": [
+      "We are proud to share that our senior robotics club won first place at the Lumbini Province School Robotics Challenge in Butwal.",
+      "The team of six students designed, built and programmed a line-following rescue robot over three months in the STEAM Lab, competing against fourteen schools from across the province.",
+      "Congratulations to the team and to their mentors. The winning robot will be on display at the Science & Innovation Fair in September."
+    ],
+    "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "n2",
+    "slug": "new-library-wing",
+    "title": "New reading wing opens in the library",
+    "category": "Campus",
+    "author": "S. Gurung",
+    "date": "2026-07-15",
+    "status": "Published",
+    "excerpt": "Three hundred new books and a dedicated quiet reading corner for primary students.",
+    "body": [
+      "Our library has grown. A new reading wing adds three hundred titles in Nepali and English and a dedicated quiet corner designed for primary students.",
+      "The wing was made possible by our parent community's book drive. Thank you — every shelf tells your generosity."
+    ],
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "n3",
+    "slug": "meet-our-new-science-faculty",
+    "title": "Meet our new science faculty",
+    "category": "People",
+    "author": "R. Sharma",
+    "date": "",
+    "status": "Draft",
+    "excerpt": "Three new teachers join the science department this academic year.",
+    "body": [
+      "Three new teachers join our science department this year, bringing experience in physics, biology and laboratory practice.",
+      "Full profiles and a short interview with each of them will be published here before classes begin."
+    ]
+  },
+  {
+    "id": "n4",
+    "slug": "steam-week-recap",
+    "title": "STEAM week recap",
+    "category": "Academics",
+    "author": "P. Thapa",
+    "date": "2026-06-28",
+    "status": "Published",
+    "excerpt": "Five days, every grade, one question: how does it actually work?",
+    "body": [
+      "STEAM week closed with an exhibition in the school hall after five days of cross-grade projects — bridges built from bamboo, a hand-cranked water pump, stop-motion films and a scale model of the Deukhuri valley.",
+      "Every class presented its work to another grade, which is the part students tell us they remember most: explaining an idea until someone younger understands it."
+    ],
+    "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "n5",
+    "slug": "monsoon-safety-reminders",
+    "title": "Monsoon safety reminders",
+    "category": "Campus",
+    "author": "S. Gurung",
+    "date": "2026-06-12",
+    "status": "Archived",
+    "excerpt": "Transport timings and pickup arrangements during heavy rainfall.",
+    "body": [
+      "During heavy rainfall, school transport runs on adjusted timings and some valley routes may be shortened to the nearest safe stop.",
+      "Families are informed by phone on any day routes change. Students are never sent home early without a confirmed guardian."
+    ]
+  }
+]

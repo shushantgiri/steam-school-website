@@ -1,0 +1,54 @@
+{
+  "name": "The School of STEAM Education",
+  "shortName": "STEAM Education",
+  "location": "Deukhuri, Dang",
+  "region": "Lumbini Province, Nepal",
+  "phone": "+977 9810958014",
+  "email": "hello@steamschool.edu.np",
+  "hours": "Sunday – Friday · 9:00 AM – 4:00 PM",
+  "address": "Deukhuri Valley Road, Deukhuri, Dang, Lumbini Province, Nepal",
+  "tagline": "Where curiosity, creativity and practical learning come together — in the heart of the Deukhuri valley.",
+  "social": {
+    "facebook": "https://facebook.com/steameducation",
+    "instagram": "https://instagram.com",
+    "youtube": "https://youtube.com"
+  },
+  "mapEmbed": "https://www.google.com/maps?q=Deukhuri,Dang,Nepal&output=embed",
+  "seo": {
+    "title": "The School of STEAM Education · Deukhuri, Dang",
+    "description": "A modern school in Deukhuri, Dang where curiosity, creativity and practical learning come together. Science, technology, engineering, arts and mathematics for Nursery to Grade 10.",
+    "keywords": "",
+    "shareTitle": "",
+    "shareDescription": "",
+    "shareImage": "",
+    "faviconUrl": ""
+  },
+  "errorPages": {
+    "notFoundTitle": "Page Not Found",
+    "notFoundText": "Sorry, we couldn't find the page you're looking for.",
+    "forbiddenTitle": "Access Denied",
+    "forbiddenText": "Sorry, you don't have permission to view this page.",
+    "serverTitle": "Something Went Wrong",
+    "serverText": "We're having a little trouble right now. Please try again later."
+  },
+  "marksheet": {
+    "showLogo": true,
+    "headerNote": "",
+    "footerNote": "Issued by the school. Valid with the authorised signatures.",
+    "signatures": "both",
+    "principalSignature": "",
+    "classTeacherName": "",
+    "classTeacherSignature": ""
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "We'll Be Back Soon",
+    "message": "Our website is currently being updated. Please check back again shortly.",
+    "showContact": true
+  },
+  "logoUrl": "",
+  "principalName": "",
+  "establishedYear": "",
+  "registrationNo": "",
+  "motto": ""
+}

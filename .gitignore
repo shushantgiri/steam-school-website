@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+*.log
+
+# Local secrets — see .env.example for the variables to set
+.env*
+!.env.example
+
+# Build artefacts
+tsconfig.tsbuildinfo
+
+# Uploaded files are content, not code — keep them out of git.
+public/uploads/*
+!public/uploads/.gitkeep

@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-charcoal antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d3e8e2;
+  color: #093e38;
+}
+
+/* ---------- Typography helpers ---------- */
+.display {
+  @apply font-bold tracking-tight text-ink;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-teal-700;
+}
+.eyebrow::before {
+  content: "";
+  @apply block h-px w-6 bg-teal-600;
+}
+
+/* Signature: one accented word in a display heading (teal on light, soft teal on dark) */
+.mark { color: #0f766e; }
+.bg-ink .mark, .on-dark .mark { color: #99e6d9; }
+
+/* ---------- Mobile safety ---------- */
+html, body { overflow-x: clip; }
+img, video, svg, iframe { max-width: 100%; }
+.display { overflow-wrap: anywhere; }
+
+/* ---------- Motion ---------- */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+  .img-zoom img {
+    transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .img-zoom:hover img {
+    transform: scale(1.04);
+  }
+  .hero-media img {
+    animation: hero-in 1.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes hero-in {
+    from { transform: scale(1.06); }
+    to { transform: scale(1); }
+  }
+}
+
+/* ---------- Focus ---------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  @apply outline-none ring-2 ring-teal-600 ring-offset-2 ring-offset-paper;
+}
+
+/* ---------- Scrollbar (subtle, desktop) ---------- */
+.nice-scroll::-webkit-scrollbar { height: 6px; width: 6px; }
+.nice-scroll::-webkit-scrollbar-thumb { background: #d8d1c0; border-radius: 999px; }
+
+/* ---- Result celebration (public /results) -------------------------------- */
+/* All movement stays behind the reduced-motion guard; without it the modal
+   and its contents simply appear. */
+.celebrate-step { opacity: 1; }
+@media (prefers-reduced-motion: no-preference) {
+  .celebrate-card { animation: celebrate-in 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; animation-delay: 0.2s; }
+  .celebrate-step { animation: celebrate-step 0.4s ease-out both; }
+  .sparkle-left  { animation: sparkle-left 1.1s ease-out both; }
+  .sparkle-right { animation: sparkle-right 1.1s ease-out both; }
+}
+@keyframes celebrate-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes celebrate-step {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes sparkle-left {
+  0%   { opacity: 0; transform: translateX(0) scale(0.6) rotate(0deg); }
+  25%  { opacity: 1; }
+  100% { opacity: 0; transform: translateX(46vw) scale(1) rotate(60deg); }
+}
+@keyframes sparkle-right {
+  0%   { opacity: 0; transform: translateX(0) scale(0.6) rotate(0deg); }
+  25%  { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-46vw) scale(1) rotate(-60deg); }
+}
+
+/* ---- Print: only the result sheet ---------------------------------------- */
+@media print {
+  header, footer, nav, .no-print { display: none !important; }
+  body { background: #fff; }
+  /* When the result modal is open, print just the result card. */
+  body.result-print * { visibility: hidden; }
+  body.result-print .celebrate-card, body.result-print .celebrate-card * { visibility: visible; }
+  body.result-print .celebrate-card {
+    position: absolute; inset: 0 auto auto 0; width: 100%;
+    box-shadow: none; border-radius: 0; padding: 24px;
+  }
+}
+
+/* ---------- Announcement popup ---------- */
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes popIn { from { opacity: 0; transform: translateY(14px) scale(.96) } to { opacity: 1; transform: none } }

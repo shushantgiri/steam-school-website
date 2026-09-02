@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "n1",
+      "label": "Home",
+      "href": "/",
+      "enabled": true,
+      "children": []
+    },
+    {
+      "id": "n2",
+      "label": "About",
+      "href": "/about",
+      "enabled": true,
+      "children": [
+        {
+          "id": "n3",
+          "label": "Our School",
+          "href": "/about",
+          "enabled": true
+        },
+        {
+          "id": "nav-teachers",
+          "label": "Teachers & Staff",
+          "href": "/teachers",
+          "enabled": true
+        },
+        {
+          "id": "nav-student-life",
+          "label": "Student Life",
+          "href": "/student-life",
+          "enabled": true
+        },
+        {
+          "id": "nav-gallery",
+          "label": "Gallery",
+          "href": "/gallery",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": "Academics",
+      "href": "/academics",
+      "enabled": true,
+      "children": [
+        {
+          "id": "n6",
+          "label": "Programs",
+          "href": "/academics",
+          "enabled": true
+        },
+        {
+          "id": "n7",
+          "label": "Academic Calendar",
+          "href": "/calendar",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "label": "Admissions",
+      "href": "/admissions",
+      "enabled": true,
+      "children": [
+        {
+          "id": "n10",
+          "label": "Admission Process",
+          "href": "/admissions",
+          "enabled": true
+        },
+        {
+          "id": "n11",
+          "label": "Apply Now",
+          "href": "/admissions/apply",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "n16",
+      "label": "News & Updates",
+      "short": "News",
+      "href": "/news",
+      "enabled": true,
+      "children": [
+        {
+          "id": "n17",
+          "label": "News",
+          "href": "/news",
+          "enabled": true
+        },
+        {
+          "id": "n18",
+          "label": "Notices",
+          "href": "/news#notices",
+          "enabled": true
+        },
+        {
+          "id": "n19",
+          "label": "Events",
+          "href": "/events",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "n20",
+      "label": "Results",
+      "href": "/results",
+      "enabled": true,
+      "children": []
+    },
+    {
+      "id": "n21",
+      "label": "Contact",
+      "href": "/contact",
+      "enabled": true,
+      "children": []
+    }
+  ]
+}

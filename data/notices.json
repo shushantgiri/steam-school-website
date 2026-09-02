@@ -1,0 +1,47 @@
+[
+  {
+    "id": "t1",
+    "slug": "admissions-open-2083",
+    "title": "Admissions open for academic year 2083",
+    "category": "Admission",
+    "priority": "Low",
+    "date": "2026-08-20",
+    "status": "Published",
+    "excerpt": "Applications are now open for Nursery to Grade 10. Apply online or visit the school office.",
+    "body": [
+      "The School of STEAM Education is now accepting applications for the academic year 2083 for Nursery through Grade 10.",
+      "Families can apply online through our website in about ten minutes, or visit the school office any school day between 9 AM and 3 PM. The attached guidelines explain eligibility, required documents and important dates.",
+      "Seats in early grades are limited. We encourage families to apply early and to book a campus visit — we would love to show you how our students learn."
+    ],
+    "attachment": "admission-guidelines-2083.pdf"
+  },
+  {
+    "id": "t2",
+    "slug": "first-term-exam-routine",
+    "title": "First terminal examination routine published",
+    "category": "Exam",
+    "priority": "Low",
+    "date": "2026-08-10",
+    "status": "Published",
+    "excerpt": "First terminal examinations run 24–30 August. The full routine is attached.",
+    "body": [
+      "First terminal examinations for all grades will run from 24 to 30 August. The complete routine, including reporting times and seat plans, is attached as a PDF.",
+      "Class teachers will review the routine with students this week. Please make sure your child rests well and arrives fifteen minutes before each paper."
+    ],
+    "attachment": "first-term-routine.pdf"
+  },
+  {
+    "id": "t3",
+    "slug": "dashain-holidays",
+    "title": "Dashain & Tihar holiday schedule",
+    "category": "Holiday",
+    "priority": "Normal",
+    "date": "2026-07-28",
+    "status": "Published",
+    "excerpt": "The school will remain closed for the festive season. Classes resume after Tihar.",
+    "body": [
+      "The school will remain closed for the Dashain and Tihar festive season according to the published academic calendar.",
+      "We wish every family a joyful and safe festival. Classes resume on the first working day after Tihar; the exact dates are marked in the school calendar."
+    ]
+  }
+]

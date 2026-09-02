@@ -1,0 +1,25 @@
+{
+  "classes": [
+    { "id": "c1", "name": "Nursery", "enabled": true },
+    { "id": "c2", "name": "LKG", "enabled": true },
+    { "id": "c3", "name": "UKG", "enabled": true },
+    { "id": "c4", "name": "Grade 1", "enabled": true },
+    { "id": "c5", "name": "Grade 2", "enabled": true },
+    { "id": "c6", "name": "Grade 3", "enabled": true },
+    { "id": "c7", "name": "Grade 4", "enabled": true },
+    { "id": "c8", "name": "Grade 5", "enabled": true },
+    { "id": "c9", "name": "Grade 6", "enabled": true },
+    { "id": "c10", "name": "Grade 7", "enabled": true },
+    { "id": "c11", "name": "Grade 8", "enabled": true },
+    { "id": "c12", "name": "Grade 9", "enabled": true },
+    { "id": "c13", "name": "Grade 10", "enabled": true }
+  ],
+  "examinations": [
+    "First Terminal Examination",
+    "Second Terminal Examination",
+    "Mid-Term Examination",
+    "Annual Examination",
+    "Final Examination"
+  ],
+  "academicYears": ["2083", "2082", "2081", "2080"]
+}

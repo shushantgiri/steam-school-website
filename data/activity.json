@@ -1,0 +1,184 @@
+[
+  {
+    "id": "6abe0b53-1706-450e-a90a-efe68fbfd4ae",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Sports",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:21.061Z"
+  },
+  {
+    "id": "e8a45e5c-9fe7-41f4-9b4e-2fd8d3bed5a3",
+    "actor": "admin@school.test",
+    "action": "Uploaded sports.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:21.050Z"
+  },
+  {
+    "id": "d58466a6-53e7-4689-a57f-b5dcd747345f",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Mathematics",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:21.030Z"
+  },
+  {
+    "id": "9fd0ffbd-c0b3-42c4-8dd2-eb84de15303f",
+    "actor": "admin@school.test",
+    "action": "Uploaded math.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:21.018Z"
+  },
+  {
+    "id": "5380cda7-898f-4db0-9a0e-6eb3fbd0adc1",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Arts",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.995Z"
+  },
+  {
+    "id": "2392db7f-f97b-4eac-911d-72f4d2af33bd",
+    "actor": "admin@school.test",
+    "action": "Uploaded arts.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.971Z"
+  },
+  {
+    "id": "48c2a797-3d1b-4072-a399-d7578eb2d34f",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Engineering",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.900Z"
+  },
+  {
+    "id": "71a63ddd-953f-4c16-8091-bac6e58d03fe",
+    "actor": "admin@school.test",
+    "action": "Uploaded engineering.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.882Z"
+  },
+  {
+    "id": "fb4609c1-bf5f-40dc-94da-cd70d20db035",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Technology",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.846Z"
+  },
+  {
+    "id": "63ec5d73-1fe3-4e1a-9b5c-39c82accdc06",
+    "actor": "admin@school.test",
+    "action": "Uploaded technology.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.826Z"
+  },
+  {
+    "id": "70f7c00d-ac46-4309-be64-90af55f2a74b",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Science",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.797Z"
+  },
+  {
+    "id": "9efe903b-8a41-4e5b-ad4f-399e5fd83ba3",
+    "actor": "admin@school.test",
+    "action": "Uploaded science.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:58:20.768Z"
+  },
+  {
+    "id": "0ec05754-67cb-4d8e-8dcc-06921a6264c5",
+    "actor": "admin@school.test",
+    "action": "Signed in",
+    "type": "Auth",
+    "created_at": "2026-09-02T06:58:20.616Z"
+  },
+  {
+    "id": "c2ab30e1-1137-45e6-8c78-a8a44b1e7a9c",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Sports",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:15.059Z"
+  },
+  {
+    "id": "061cae9d-6dc0-4e10-9202-1577801742d4",
+    "actor": "admin@school.test",
+    "action": "Uploaded sports.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:15.047Z"
+  },
+  {
+    "id": "5bf66a07-7d79-4b9c-b2a3-f725fec008f8",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Mathematics",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:15.028Z"
+  },
+  {
+    "id": "f4c06b4f-40b2-46c2-85eb-755624472245",
+    "actor": "admin@school.test",
+    "action": "Uploaded math.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:15.015Z"
+  },
+  {
+    "id": "350f3905-b267-4c01-aa1b-2cb195ceb341",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Arts",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.992Z"
+  },
+  {
+    "id": "ba6a9b90-d917-4a0f-8303-796bc7a6fb89",
+    "actor": "admin@school.test",
+    "action": "Uploaded arts.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.968Z"
+  },
+  {
+    "id": "2b207dda-266e-4469-9082-53ccd23dbb7a",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Engineering",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.941Z"
+  },
+  {
+    "id": "fb39ca56-872b-414d-8413-1d12ee370a57",
+    "actor": "admin@school.test",
+    "action": "Uploaded engineering.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.924Z"
+  },
+  {
+    "id": "2acf5b25-ed29-4506-a065-f40b08d518e1",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Technology",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.892Z"
+  },
+  {
+    "id": "59ea201a-21ef-49d4-8cf3-7c08823b786b",
+    "actor": "admin@school.test",
+    "action": "Uploaded technology.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.871Z"
+  },
+  {
+    "id": "35b73618-c26b-483e-811a-8ce51151f063",
+    "actor": "admin@school.test",
+    "action": "Changed photo: Homepage → Learning — Science",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.843Z"
+  },
+  {
+    "id": "613d7540-f6db-4b5b-8ee6-6db70e0a923a",
+    "actor": "admin@school.test",
+    "action": "Uploaded science.jpg",
+    "type": "Media",
+    "created_at": "2026-09-02T06:50:14.820Z"
+  },
+  {
+    "id": "262941fb-5bb0-49d0-9877-4db0084579f7",
+    "actor": "admin@school.test",
+    "action": "Signed in",
+    "type": "Auth",
+    "created_at": "2026-09-02T06:50:05.929Z"
+  }
+]
